@@ -1,0 +1,147 @@
+.MainDiv{
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    /* border:1px solid #003466; */
+    padding: 20px;
+}
+.ProfileImg{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-around; */
+}
+.CamIcon{
+    position: absolute;
+    bottom: 8px;
+    left: 90px;
+    
+}
+.ProfileImg>img{
+    width: 125px;
+height: 125px;
+border-radius: 50%;
+}
+.ProfileImg>div>h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: -0.28px;
+}
+.ProfileImg>div>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+/* margin: 0; */
+text-align: left;
+margin-top: -10px;
+line-height: 25px;
+/* text-align: center; */
+letter-spacing: 1px;
+}
+.ProfileImg>div:last-child{
+    width: 30%;
+    display: flex;
+    align-items:flex-end ;
+    justify-content: flex-end;
+}
+.ProfileImg>div>a{
+    color: #003466;
+}
+.LanguageSection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.LanguageSection>div>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+}
+.LanguageSection>div>select{
+    border: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+z-index: 999;
+margin-top: 10px;
+}
+.LanguageSection>div>select:focus{
+    outline: none;
+}
+.SwitchDiv{
+    position: relative;
+    margin-top: 30px;
+    width: 62.38px;
+    height: 25.92px;
+    background: #003466;
+
+    border: 0.810066px solid #003466;
+    border-radius: 12.9611px;
+}
+.SwitchOn{
+color:green;
+position: absolute;
+right: 2%;
+cursor: pointer;
+}
+.SwitchOff{
+color: white;
+cursor: pointer;
+}
+.HelpMainSection{
+    margin-top: 20px;
+}
+.HelpDivSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.HelpDivSection>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.HelpDivSection>div>div>h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+}
+
+.HelpDivSection>div>div>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+margin-top: 0;
+}
+
+.BackBtnDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.BackBtnDiv>div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+
+}

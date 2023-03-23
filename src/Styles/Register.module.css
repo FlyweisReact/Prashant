@@ -1,0 +1,205 @@
+.Logo{
+width: 323px;
+height: 91px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 80px;
+margin-top: 43px;
+background: #D9D9D9;
+border-radius: 45.5px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -0.28px;
+color: #000000;
+}
+.RegisterMainDiv{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.RegisterMainDiv>div:first-child{
+    width: 60%;
+    /* border: 1px solid red; */
+}
+.RegisterMainDiv>div:last-child{
+    width: 40%;
+    /* border: 1px solid yellow; */
+}
+.RegisterFirstSection>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: -0.28px;
+color: #003466;
+margin-bottom: 10px;
+
+}
+.RegisterTitle{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.RegisterTitle>div{
+    display: flex;
+    width: 76px;
+    align-items: center;
+    justify-content: center;
+height: 76px;
+background: #FFFFFF;
+border-radius: 50%;
+box-shadow: 0px 0px 4px 4px rgba(0, 41, 107, 0.25);
+}
+.RegisterTitle>p{
+    font-family: 'Poppins';
+font-style: normal;
+/* margin-top: 0; */
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+letter-spacing: -0.28px;
+
+color: #000000;
+}
+.InputBoxMain{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.InputBoxMain>div{
+    width: 592px;
+margin-right: 15%;
+
+}
+.InputBox{
+    width: 100%;
+    position: relative;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.textArea{
+    width: 100%;
+    position: relative;
+    height: 125px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.textArea>textarea{
+    /* height: 300px; */
+    border: none;
+
+    height: 90%;
+    margin: 10px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 24px; */
+    line-height: 36px;
+    letter-spacing: -0.28px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.textArea>textarea:focus{
+    outline: none;
+}
+.textArea>span{
+    position: absolute;
+    top: -18px;
+    left: 5%;
+    background-color: white;
+    padding: 5px;  
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.28px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.InputBox>span{
+    position: absolute;
+    top: -18px;
+    left: 5%;
+    background-color: white;
+    padding: 5px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.28px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.InputBox>input{
+    border: none;
+    height: 90%;
+    margin: 10px;
+    width: 90%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 24px; */
+    line-height: 36px;
+    letter-spacing: -0.28px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.InputBox>input:focus{
+    outline: none;
+}
+.InputBox>select{
+    border: none;
+    height: 90%;
+    margin: 10px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.28px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.RegisterFirstSection>button{
+    display: block;
+    width: 458px;  
+    height: 72px;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    background: #003466;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}

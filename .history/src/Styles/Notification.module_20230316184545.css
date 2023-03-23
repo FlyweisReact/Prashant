@@ -1,0 +1,142 @@
+.modal{
+    display: none;
+  position: fixed;
+  z-index: 1; 
+  left: 0%;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modalVisible{
+    display :block;
+    position: fixed;
+    z-index: 1; 
+    left: 0%;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.ModalMainDiv{
+    position:absolute;
+    margin: auto;
+    top: 20%;
+    right: 15%;
+    padding: 30px;
+    width: 519px;
+/* height: 811px; */
+background: #FFFFFF;
+  
+   
+}
+
+.CloseIcon{
+    
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    cursor: pointer;
+}
+
+.ModalMainDiv>button{
+height: 64px;
+display: block;
+width: 360px;
+margin: auto;
+margin-top: 50px;
+background: #2A3A8F;
+border-radius: 16px;
+border: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+cursor: pointer;
+color: white;
+}
+
+.titleDiv{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titleDiv>h1{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 18px;
+letter-spacing: -0.28px;
+color: #000000;
+}
+.ModalMainDiv>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 18px;
+letter-spacing: -0.28px;
+color: #000000;
+
+}
+.NotificationDiv{
+    display: flex;
+align-items: center;
+gap: 20px;
+}
+.NotificationDiv>div>img{
+    width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+.NotificationDiv>div>h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.28px;
+width: 70%;
+}
+.NotificationDiv>div>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 18px;
+letter-spacing: -0.28px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.NotificationDiv>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NotificationDiv>div>div>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: -0.28px;
+margin: 0;
+color: rgba(0, 0, 0, 0.5);
+}
+.Time{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    color:  #003466;
+}

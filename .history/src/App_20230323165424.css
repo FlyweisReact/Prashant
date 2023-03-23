@@ -1,0 +1,127 @@
+/** @format */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.font-poppins {
+  font-family: "Poppins";
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Normal Css */
+.NotificationModalFirst{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NotificationModalFirst>h1{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 18px;
+letter-spacing: -0.28px;
+color: #000000;
+}
+
+
+
+/* Media Query */
+@media (max-width: 780px) {
+  .Login_MainDiv__AWrd2 {
+    display: block !important;
+  }
+  .Login_MainDiv__AWrd2 > div {
+    width: 100% !important;
+    height: 700px !important;
+  }
+  .Login_LoginMainSection__Yyq5T > div {
+    width: 100% !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+  }
+
+  .Register_RegisterMainDiv__Hok-C {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .Register_RegisterFirstSection__0bCb6 > p {
+    text-align: center;
+    display: block;
+    width: 500px;
+  }
+
+  .myHr {
+    max-width: 400px !important;
+    margin: auto !important;
+    display: block !important;
+  }
+  .smallImage {
+    width: 100% !important;
+  }
+  .Register_RegisterMainDiv__Hok-C > div:first-child {
+    width: 100% !important;
+  }
+  .Register_RegisterMainDiv__Hok-C > div:last-child {
+    width: 100% !important;
+  }
+  .Register_InputBoxMain__6Dvtf {
+    margin-left: 60px;
+  }
+
+  .Register_RegisterTitle__dGsqQ {
+    justify-content: center;
+  }
+
+  .RegisterTwo_RegisterMainDiv__Oc9\+U {
+    display: block !important;
+  }
+  .RegisterTwo_RegisterMainDiv__Oc9\+U > div:first-child {
+    width: 100% !important;
+  }
+
+  .RegisterTwo_RegisterMainDiv__Oc9\+U > div:last-child {
+    width: 100% !important;
+  }
+ 
+}
+
+
